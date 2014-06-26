@@ -72,16 +72,7 @@ function pwdFocus() {
  
  <div id="main">
  <div id="design">
- <span id="signinButton">
-  <span
-    class="g-signin"
-    data-callback="signinCallback"
-    data-clientid="befnq7rgq7rtqa0afakce9qka2s90dd0.apps.googleusercontent.com"
-    data-cookiepolicy="single_host_origin"
-    data-requestvisibleactions="http://schemas.google.com/AddActivity"
-    data-scope="https://www.googleapis.com/auth/plus.login">
-  </span>
-</span>
+ 
  <div id="sign_up_box">
 <form name="sign_up_form" method="post" onsubmit="return signUpValidate()">
 <table>
@@ -111,7 +102,17 @@ function pwdFocus() {
  </div><!--main-->
  </div><!--header_main-->
  <div id="footer">
- 
+ <div class="landing_head" align="center"><h2>Sign up with your Facebook or Google or Twitter account</h2></div>
+ <span id="signinButton">
+  <span
+    class="g-signin"
+    data-callback="signinCallback"
+    data-clientid="befnq7rgq7rtqa0afakce9qka2s90dd0.apps.googleusercontent.com"
+    data-cookiepolicy="single_host_origin"
+    data-requestvisibleactions="http://schemas.google.com/AddActivity"
+    data-scope="https://www.googleapis.com/auth/plus.login">
+  </span>
+</span>
    </div><!--footer-->
 
 </body>
